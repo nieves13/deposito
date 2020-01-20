@@ -97,4 +97,8 @@ public class DepositoCombustible {
 	public void consumir(double amount){
        depNivel = depNivel - amount;
     }
+	
+	public void print() {
+		System.out.println("max" + depMax + " nivel " + depNivel);
+	}
 }
